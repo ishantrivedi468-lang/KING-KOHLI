@@ -96,46 +96,33 @@ export function Footer() {
           </div>
 
         </div>
+```tsx
+{/* Bottom Bar */}
+<div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 sm:flex-row sm:items-center">
 
-        {/* Bottom Bar */}
-        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 sm:flex-row sm:items-center">
+  <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+    {STATS_AS_OF}
+  </p>
 
-          {/* Stats date */}
-          <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-            {STATS_AS_OF}
-          </p>
+  <div className="flex flex-wrap items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
 
-          {/* Creator + Social Links */}
-          <div className="flex flex-wrap items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
+    <span>Made by ISHAN TRIVEDI</span>
 
-            <span>Made by ISHAN TRIVEDI</span>
+    <span className="text-muted-foreground">•</span>
 
-            <span className="text-muted-foreground">•</span>
+    <a
+      href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="cursor-pointer hover:text-white transition-colors"
+    >
+      LinkedIn
+    </a>
 
-            <a
-              href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer hover:text-white transition-colors"
-            >
-              LinkedIn
-            </a>
+  </div>
+</div>
+```
 
-            <span className="text-muted-foreground">•</span>
-
-            <a
-              href="https://www.instagram.com/its_ishantrivedi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer hover:text-white transition-colors"
-            >
-              Instagram
-            </a>
-
-          </div>
-        </div>
-
-      </div>
     </footer>
   );
 }
