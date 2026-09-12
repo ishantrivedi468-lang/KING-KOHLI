@@ -48,15 +48,28 @@ export function Footer() {
           <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
             {STATS_AS_OF}
           </p>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
-            Made by ISHAN TRIVEDI
-        <a
-  href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  LinkedIn
-</a>
+
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
+  Made by ISHAN TRIVEDI
+
+  <a
+    href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="ml-3 hover:text-white transition-colors"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="https://www.instagram.com/its_ishantrivedi/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="ml-3 hover:text-white transition-colors"
+  >
+    Instagram
+  </a>
+</p>
             
           </p>
         </div>
