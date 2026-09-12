@@ -50,8 +50,13 @@ export function Footer() {
           </p>
           <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
             Made by ISHAN TRIVEDI
-            LINKEDIN - https://www.linkedin.com/in/ishan-trivedi-431896396/
-
+        <a
+  href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  LinkedIn
+</a>
             
           </p>
         </div>
