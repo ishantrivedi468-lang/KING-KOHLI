@@ -44,34 +44,38 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 sm:flex-row sm:items-center">
-          <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-            {STATS_AS_OF}
-          </p>
+<div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 sm:flex-row sm:items-center">
+  <p className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+    {STATS_AS_OF}
+  </p>
 
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
-  Made by ISHAN TRIVEDI
+  <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
+    <span>Made by ISHAN TRIVEDI</span>
 
-  <a
-    href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="ml-3 hover:text-white transition-colors"
-  >
-    LinkedIn
-  </a>
+    <span className="text-muted-foreground">•</span>
 
-  <a
-    href="https://www.instagram.com/its_ishantrivedi/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="ml-3 hover:text-white transition-colors"
-  >
-    Instagram
-  </a>
-</p>
-            
-          </p>
+    <a
+      href="https://www.linkedin.com/in/ishan-trivedi-431896396/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition-colors"
+    >
+      LinkedIn
+    </a>
+
+    <span className="text-muted-foreground">•</span>
+
+    <a
+      href="https://www.instagram.com/its_ishantrivedi/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition-colors"
+    >
+      Instagram
+    </a>
+  </div>
+</div>
+          
         </div>
       </div>
     </footer>
