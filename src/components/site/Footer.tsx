@@ -96,7 +96,7 @@ export function Footer() {
           </div>
 
         </div>
-```tsx
+
 {/* Bottom Bar */}
 <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 sm:flex-row sm:items-center">
 
