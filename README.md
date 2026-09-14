@@ -4,6 +4,8 @@ Create a premium, modern, cinematic Virat Kohli fan website called:
 
 "VIRAT KOHLI — THE KING"
 
+<img src="https://github.com/ishantrivedi468-lang/KING-KOHLI/blob/main/public/images/kohli-test-farewell.png?raw=true" alt="Virat Kohli Test Farewell" width="100%">
+
 The website should feel like a high-end sports documentary/fan tribute website, NOT a basic blog.
 
 DESIGN STYLE
